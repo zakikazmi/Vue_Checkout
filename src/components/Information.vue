@@ -60,15 +60,15 @@
     </b-row>
         <div class="card-form-field">
       <b-row>
-        <b-col lg="8">
+        <b-col cols="8">
           <div class="card-form-field-label">Expiration Date</div>
         </b-col>
-        <b-col lg="4">
+        <b-col cols="4">
           <div class="card-form-field-label">Security Code</div>
         </b-col>
       </b-row>
       <b-row>
-        <b-col lg="4" :class="{ 'form-group--error': $v.month.$error }">
+        <b-col cols="4" :class="{ 'form-group--error': $v.month.$error }">
           <select
             name="exp_month"
             class="card-form-field-select"
@@ -80,7 +80,7 @@
           </select>
           <div class="error" v-if="!$v.month.required">Field is required</div>
         </b-col>
-        <b-col lg="4" :class="{ 'form-group--error': $v.year.$error }" >
+        <b-col cols="4" :class="{ 'form-group--error': $v.year.$error }" >
           <select
             name="exp_year"
             class="card-form-field__select"
@@ -92,7 +92,7 @@
           </select>
           <div class="error" v-if="!$v.year.required">Field is required</div>
         </b-col>
-        <b-col lg="4" :class="{ 'form-group--error': $v.cvc.$error }">
+        <b-col cols="4" :class="{ 'form-group--error': $v.cvc.$error }">
           <input
             name="cvcField"
             type="text"
