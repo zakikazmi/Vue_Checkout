@@ -1,0 +1,102 @@
+.wrapper {
+  max-width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: #071726;
+  text-align: center;
+}
+.wrapper .box {
+  margin-top: 15%;
+  width: 500px;
+  height: 500px;
+  display: inline-block;
+}
+
+#ItemDiv {
+  width: 600px;
+  background-color: #ffffff;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+#InfoDiv {
+  width: 400px;
+  background-color: #090a0a;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.card-form {
+  width: 300px;
+  margin: 50px;
+  position: fixed;
+}
+
+.card-form-title {
+  font-size: 28px;
+  color: #b9b9b9;
+  text-align: left;
+}
+
+.card-form-field-label {
+  text-align: left;
+  font-family: sans-serif;
+  color: #b9b9b9;
+  text-transform: uppercase;
+  font-size: 10px;
+  width: 200px;
+  margin-top: 1em;
+}
+
+.card-form-submit {
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 3em;
+  border-radius: 25px;
+  border: none;
+  width: 100%;
+}
+
+.card-form-field input {
+  color: gray;
+  background-color: #090a0a;
+  border: inherit;
+  border-bottom: 1px solid #171717;
+  width: 100%;
+  font-weight: 600;
+}
+.card-form-field select {
+  color: gray;
+  background-color: #090a0a;
+  border: inherit;
+  border-bottom: 1px solid #171717;
+  width: 100%;
+  font-weight: 600;
+}
+
+.cvc-input {
+  width: 60px;
+}
+
+.error {
+  font-size: 10px;
+  text-align: left;
+  color: #9b793b;
+}
+
+.typo__p-success {
+  color: #006400;
+}
+
+.typo__p-error {
+  color: #ff0000;
+}
+
+.typo__p-pend {
+  color: #ffeb3b;
+}
+
+/*# sourceMappingURL=style.css.map */
